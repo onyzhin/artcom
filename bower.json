@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "homepage": "https://github.com/onyzhin/base-FE",
+  "homepage": "https://github.com/onyzhin/base-project",
   "authors": [
     "o.nyzhin@gmail.com"
   ],
@@ -11,9 +11,11 @@
   "dependencies": {
     "normalize.css": "*",
     "jquery": "2.*",
+    "jquery-mousewheel": "~3.1.*",
     "slick-carousel": "~1.5.9",
     "bootstrap-sass": "~3.3",
-    "waypoints": "4.0.0"
+    "font-awesome": "^4.*" 
+    "waypoints": "~4.0.0"
   },
   "main": "",
   "private": true,
