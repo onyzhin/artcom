@@ -20,9 +20,7 @@ You will need the following things properly installed on your computer.
 
 * `gulp` _Run project and visit your app at [http://localhost:3000](http://localhost:3000)_
 
-* `prod prod` _Switch the mode to "production" (public and optimized)_
-
-* `prod clean` _Switch the mode to "production" (public and optimized)_
+* `gulp prod` _Switch the mode to "production" (public and optimized)_
 
 * `gulp clean` _Delete all files from build_
 
