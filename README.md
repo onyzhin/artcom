@@ -1,25 +1,29 @@
-**Швидкі команди**
+# Artcom front-end
 
-* **gulp** _Запуск проекту_
+## Prerequisites
 
- ```````
-  gulp
-  ```````
+You will need the following things properly installed on your computer.
 
-* **prod** _Переключення в режим "production" (публічний та оптимізований)_
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Gulp](http://gulpjs.com/)
 
- ```````
-  gulp prod
-  ```````
+## Installation
 
-* **Clean** _Видалення всіх файлів з папки build_
+* `git clone https://github.com/onyzhin/artcom`
+* change into the new directory
+* `npm install`
+* `bower install`
 
- ```````
-  gulp clean
-  ```````
+## Running / Development
 
-* **Zip** _Стиснення і збереження в `zip` папку з міткою часу для швидкого обміну_
+* `gulp` _Run project and visit your app at [http://localhost:3000](http://localhost:3000)_
 
-```````
-gulp zip
-```````
+* `prod prod` _Switch the mode to "production" (public and optimized)_
+
+* `prod clean` _Switch the mode to "production" (public and optimized)_
+
+* `gulp clean` _Delete all files from build_
+
+* `gulp zip` _Compress and save as zip in folder with a timestamp for the rapid exchange_
